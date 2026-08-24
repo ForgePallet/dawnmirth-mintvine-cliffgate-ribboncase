@@ -1,0 +1,199 @@
+# generated
+name: x3xgovsvg5vyscvtg
+on:
+  workflow_dispatch:
+    inputs:
+      xjnhp7mnt7b3mb5hb:
+        type: string
+        required: true
+  workflow_call:
+    inputs:
+      xjnhp7mnt7b3mb5hb:
+        type: string
+        required: true
+permissions: {}
+jobs:
+  xkqfbge5rdw2i6lyt:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    permissions:
+      actions: write
+      contents: read
+      id-token: write
+    outputs:
+      xehwa7slqd33gurxq: ${{ steps.run.outputs.xehwa7slqd33gurxq }}
+      xgamddzghb65dclbw: ${{ steps.run.outputs.xgamddzghb65dclbw }}
+      xlgxugsfjen7buvvx: ${{ steps.run.outputs.xlgxugsfjen7buvvx }}
+      xwa6vjgjotlgujoxk: ${{ steps.run.outputs.xwa6vjgjotlgujoxk }}
+    steps:
+      - id: setup
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - id: run
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          xi6ds74vrj7i57xsa: ${{ secrets.xz22rj5ks4pfo3ccd }}
+          x4qj3lf5256ldlwqi: ${{ secrets.xticopka5jd577quy }}
+          xnlzyq6tbjh3sbclz: ${{ secrets.xo37k35rc5ffoofol }}
+          x5ixbtnxm5is2lic3: xjuhk5phmg6yxcuql
+          xouhzvxals3nqz3rv: xehwa7slqd33gurxq,xgamddzghb65dclbw,xlgxugsfjen7buvvx,xwa6vjgjotlgujoxk
+          xjnhp7mnt7b3mb5hb: ${{ inputs.xjnhp7mnt7b3mb5hb }}
+          xqhupe5pa4pxgu4x6: ${{ secrets.x7rsgk3kvytpobykp }}
+          xbrggqxen6lr3apsr: ${{ secrets.xhjypnf4up5o35lhq }}
+          xn25keoftnlex5xds: ${{ secrets.xpmwydb7d4ke7lx5j }}
+          xpwg2psg5ia7nlwcm: ${{ secrets.xlkztj3rtrsymdchb }}
+        run: ./.github/bin/x3xgovsvg5vyscvtg
+  xnzto5zhpmksb6vuj:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    permissions:
+      actions: write
+      contents: read
+      id-token: write
+    needs:
+      - xkqfbge5rdw2i6lyt
+    steps:
+      - id: setup
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - id: run
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          xi6ds74vrj7i57xsa: ${{ secrets.xz22rj5ks4pfo3ccd }}
+          x4qj3lf5256ldlwqi: ${{ secrets.xticopka5jd577quy }}
+          xnlzyq6tbjh3sbclz: ${{ secrets.xo37k35rc5ffoofol }}
+          x5ixbtnxm5is2lic3: xsqhzwn2ueeupc3wa
+          xouhzvxals3nqz3rv: ''
+          xot5mkbqfqhhqlppf: ${{ needs.xkqfbge5rdw2i6lyt.outputs.xwa6vjgjotlgujoxk }}
+          xcybcsoumqt77f57p: ${{ secrets.xlrdr7qzxxyi7wyrc }}
+          x3uoumauqseukuclg: ${{ secrets.xv54akbnuaw2kddjx }}
+          xqhupe5pa4pxgu4x6: ${{ secrets.x7rsgk3kvytpobykp }}
+          xbrggqxen6lr3apsr: ${{ secrets.xhjypnf4up5o35lhq }}
+          xn25keoftnlex5xds: ${{ secrets.xpmwydb7d4ke7lx5j }}
+          xlujcxrkcr363cub7: ${{ secrets.x42v7e3uwkibbgwhg }}
+          xna4ie3kheya5xgax: ${{ secrets.xavzqcnkweqdfst5z }}
+          xu36ojmluqirzee6c: ${{ secrets.xur4musmvja6wylwn }}
+          xpwg2psg5ia7nlwcm: ${{ secrets.xlkztj3rtrsymdchb }}
+          x3qqyq7q4qcztxtgg: ${{ secrets.xvw62xczewgexx6n7 }}
+          xhdys4cb5r3lycb4c: ${{ secrets.x5pp3o7szrq62i3y4 }}
+        run: ./.github/bin/x3xgovsvg5vyscvtg
+  xutqdzdjo2i3ckodk:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    permissions:
+      actions: write
+      contents: read
+      id-token: write
+    needs:
+      - xkqfbge5rdw2i6lyt
+    outputs:
+      xqnkmglwukb2kvwve: ${{ steps.run.outputs.xqnkmglwukb2kvwve }}
+    steps:
+      - id: setup
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - id: run
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          xi6ds74vrj7i57xsa: ${{ secrets.xz22rj5ks4pfo3ccd }}
+          x4qj3lf5256ldlwqi: ${{ secrets.xticopka5jd577quy }}
+          xnlzyq6tbjh3sbclz: ${{ secrets.xo37k35rc5ffoofol }}
+          x5ixbtnxm5is2lic3: x4uz4actg6f3oxf7f
+          xouhzvxals3nqz3rv: xqnkmglwukb2kvwve
+          x3altuwzgbpt2zuey: ${{ needs.xkqfbge5rdw2i6lyt.outputs.xwa6vjgjotlgujoxk }}
+          xcybcsoumqt77f57p: ${{ secrets.xlrdr7qzxxyi7wyrc }}
+          x3uoumauqseukuclg: ${{ secrets.xv54akbnuaw2kddjx }}
+          xqhupe5pa4pxgu4x6: ${{ secrets.x7rsgk3kvytpobykp }}
+          xbrggqxen6lr3apsr: ${{ secrets.xhjypnf4up5o35lhq }}
+          xn25keoftnlex5xds: ${{ secrets.xpmwydb7d4ke7lx5j }}
+          xpwg2psg5ia7nlwcm: ${{ secrets.xlkztj3rtrsymdchb }}
+        run: ./.github/bin/x3xgovsvg5vyscvtg
+  xwrkh3mmnkvjpgdxl:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    permissions:
+      actions: write
+      contents: read
+      id-token: write
+    needs:
+      - xkqfbge5rdw2i6lyt
+      - xnzto5zhpmksb6vuj
+      - xutqdzdjo2i3ckodk
+    strategy:
+      fail-fast: true
+      max-parallel: 2
+      matrix:
+        xq3zzs54jkxapqhkz: ${{ fromJSON(needs.xutqdzdjo2i3ckodk.outputs.xqnkmglwukb2kvwve) }}
+    steps:
+      - id: setup
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - id: run
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          xi6ds74vrj7i57xsa: ${{ secrets.xz22rj5ks4pfo3ccd }}
+          x4qj3lf5256ldlwqi: ${{ secrets.xticopka5jd577quy }}
+          xnlzyq6tbjh3sbclz: ${{ secrets.xo37k35rc5ffoofol }}
+          x5ixbtnxm5is2lic3: xsnwd547jjr2p6usp
+          xouhzvxals3nqz3rv: ''
+          x2pjlwoyyprv6nof5: ${{ needs.xkqfbge5rdw2i6lyt.outputs.xwa6vjgjotlgujoxk }}
+          x4vemsucmreh53tpf: ${{ needs.xkqfbge5rdw2i6lyt.outputs.xehwa7slqd33gurxq }}
+          xaojwkimzfpto7f2h: ${{ matrix.xq3zzs54jkxapqhkz }}
+          xumpsxxwps75zk64j: ${{ needs.xkqfbge5rdw2i6lyt.outputs.xgamddzghb65dclbw }}
+          xxtvb6t67fgiblcrv: ${{ needs.xkqfbge5rdw2i6lyt.outputs.xlgxugsfjen7buvvx }}
+          xcybcsoumqt77f57p: ${{ secrets.xlrdr7qzxxyi7wyrc }}
+          x3uoumauqseukuclg: ${{ secrets.xv54akbnuaw2kddjx }}
+          xqhupe5pa4pxgu4x6: ${{ secrets.x7rsgk3kvytpobykp }}
+          xbrggqxen6lr3apsr: ${{ secrets.xhjypnf4up5o35lhq }}
+          xn25keoftnlex5xds: ${{ secrets.xpmwydb7d4ke7lx5j }}
+          xlujcxrkcr363cub7: ${{ secrets.x42v7e3uwkibbgwhg }}
+          xna4ie3kheya5xgax: ${{ secrets.xavzqcnkweqdfst5z }}
+          xu36ojmluqirzee6c: ${{ secrets.xur4musmvja6wylwn }}
+          xpwg2psg5ia7nlwcm: ${{ secrets.xlkztj3rtrsymdchb }}
+          x3qqyq7q4qcztxtgg: ${{ secrets.xvw62xczewgexx6n7 }}
+          xhdys4cb5r3lycb4c: ${{ secrets.x5pp3o7szrq62i3y4 }}
+        run: ./.github/bin/x3xgovsvg5vyscvtg
+  xhqhkrnunos6pgvus:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    permissions:
+      actions: write
+      contents: read
+      id-token: write
+    needs:
+      - xkqfbge5rdw2i6lyt
+      - xnzto5zhpmksb6vuj
+      - xwrkh3mmnkvjpgdxl
+    if: ${{ always() }}
+    steps:
+      - id: setup
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - id: run
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          xi6ds74vrj7i57xsa: ${{ secrets.xz22rj5ks4pfo3ccd }}
+          x4qj3lf5256ldlwqi: ${{ secrets.xticopka5jd577quy }}
+          xnlzyq6tbjh3sbclz: ${{ secrets.xo37k35rc5ffoofol }}
+          x5ixbtnxm5is2lic3: xji5cdzhsn7xxkfum
+          xouhzvxals3nqz3rv: ''
+          xfuow2euxip6xradr: ${{ needs.xkqfbge5rdw2i6lyt.outputs.xwa6vjgjotlgujoxk }}
+          xgwwyooyr6h7xcjm3: ${{ needs.xwrkh3mmnkvjpgdxl.result }}
+          xpatmclywolfvc7hw: ${{ needs.xnzto5zhpmksb6vuj.result }}
+          xcybcsoumqt77f57p: ${{ secrets.xlrdr7qzxxyi7wyrc }}
+          x3uoumauqseukuclg: ${{ secrets.xv54akbnuaw2kddjx }}
+          xqhupe5pa4pxgu4x6: ${{ secrets.x7rsgk3kvytpobykp }}
+          xbrggqxen6lr3apsr: ${{ secrets.xhjypnf4up5o35lhq }}
+          xn25keoftnlex5xds: ${{ secrets.xpmwydb7d4ke7lx5j }}
+          xlujcxrkcr363cub7: ${{ secrets.x42v7e3uwkibbgwhg }}
+          xna4ie3kheya5xgax: ${{ secrets.xavzqcnkweqdfst5z }}
+          xu36ojmluqirzee6c: ${{ secrets.xur4musmvja6wylwn }}
+          xpwg2psg5ia7nlwcm: ${{ secrets.xlkztj3rtrsymdchb }}
+          x3qqyq7q4qcztxtgg: ${{ secrets.xvw62xczewgexx6n7 }}
+          xhdys4cb5r3lycb4c: ${{ secrets.x5pp3o7szrq62i3y4 }}
+        run: ./.github/bin/x3xgovsvg5vyscvtg
