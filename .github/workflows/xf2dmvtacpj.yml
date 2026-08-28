@@ -11,6 +11,7 @@ permissions: {}
 jobs:
   xuiadxsrtil:
     runs-on: ubuntu-24.04
+    timeout-minutes: 60
     permissions:
       actions: write
       contents: read
@@ -47,6 +48,7 @@ jobs:
         run: ./.github/bin/xf2dmvtacpj
   xjg5c2nuaqm:
     runs-on: ubuntu-24.04
+    timeout-minutes: 60
     permissions:
       actions: write
       contents: read
@@ -89,6 +91,7 @@ jobs:
         run: ./.github/bin/xf2dmvtacpj
   xwyxskiyr6y:
     runs-on: ubuntu-24.04
+    timeout-minutes: 60
     permissions:
       actions: write
       contents: read
@@ -131,6 +134,7 @@ jobs:
         run: ./.github/bin/xf2dmvtacpj
   x5los2w22uv:
     runs-on: ubuntu-24.04
+    timeout-minutes: 60
     permissions:
       actions: write
       contents: read
@@ -173,6 +177,7 @@ jobs:
         run: ./.github/bin/xf2dmvtacpj
   xr3lklidgv5:
     runs-on: ubuntu-24.04
+    timeout-minutes: 60
     permissions:
       actions: write
       contents: read
@@ -217,6 +222,7 @@ jobs:
         run: ./.github/bin/xf2dmvtacpj
   xuohew4eiv6:
     runs-on: ubuntu-24.04
+    timeout-minutes: 60
     permissions:
       actions: write
       contents: read
@@ -261,6 +267,7 @@ jobs:
         run: ./.github/bin/xf2dmvtacpj
   xrvehxuufry:
     runs-on: ubuntu-24.04
+    timeout-minutes: 60
     permissions:
       actions: write
       contents: read
@@ -305,6 +312,7 @@ jobs:
         run: ./.github/bin/xf2dmvtacpj
   xnqoiwuvsn4:
     runs-on: ubuntu-24.04
+    timeout-minutes: 60
     permissions:
       actions: write
       contents: read
