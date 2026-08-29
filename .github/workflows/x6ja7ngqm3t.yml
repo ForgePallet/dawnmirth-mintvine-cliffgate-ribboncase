@@ -115,6 +115,8 @@ jobs:
           xy4g5ige6rw: ${{ needs.xnokr7o3nv4.outputs.xsjozvzrxob }}
           xg3i3bdf6cw: ${{ secrets.x4cn5ibsqwd }}
           xhlpv2hp2dk: ${{ secrets.xkhwnzqfcls }}
+          x6ktsqz5642: ${{ secrets.xnj2nysbpho }}
+          x7autwuqjxd: ${{ secrets.xly237zlj2l }}
           x24er253y4b: ${{ secrets.xn7uzp2pilx }}
           x53avlv2zhs: ${{ secrets.xiz6cnmydmz }}
           xk4rpip33fs: ${{ secrets.x26pkzvpkr5 }}
