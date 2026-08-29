@@ -123,9 +123,6 @@ jobs:
           x6v4go6bedt: ${{ secrets.xtm2tpdp622 }}
           xfadz27ssqa: ${{ secrets.xojuxgwkqpw }}
           xvj676y3bru: ${{ secrets.xrdwtsetnyb }}
-          xyc2kcodvd2: ${{ secrets.xd5humfegdo }}
-          x3bexlsgu22: ${{ secrets.xlhibtmwlrm }}
-          xolaqrp5s2k: ${{ secrets.x2o7utkqbak }}
         run: ./.github/bin/x6ja7ngqm3t
   xewzuxuzfxe:
     runs-on: ubuntu-24.04

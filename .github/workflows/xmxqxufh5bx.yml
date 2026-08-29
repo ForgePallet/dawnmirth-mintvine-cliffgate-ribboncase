@@ -123,9 +123,6 @@ jobs:
           x2kslc3sbbq: ${{ secrets.xai2v37lja6 }}
           xqj6xvz2zsg: ${{ secrets.xl7tiqgs7ug }}
           xmwtti62frq: ${{ secrets.xvp3lwebscb }}
-          x23ufwtu3w3: ${{ secrets.xrmngwyo3hd }}
-          xtpfxqz5ncv: ${{ secrets.x5lnbwhq3br }}
-          xw3amogoa3n: ${{ secrets.xkwcxkcwanv }}
         run: ./.github/bin/xmxqxufh5bx
   xhkpazyh5vp:
     runs-on: ubuntu-24.04
